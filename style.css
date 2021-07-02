@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color:#f0f2f5;
+    font-family: "poppins", sans-serif;
+}
+.container{
+    width: min(90vw, 800px);
+    margin: auto;
+}
+h2{
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: #363f5f;
+    font-weight: normal;
+}
+header{
+
+    background: #3E999E;
+    padding: 2rem 0 10rem;
+    text-align: center;
+}
+.logo{
+    color: #5BE3EB;
+    font-weight: 100;
+}        
+
+#balanco{
+    margin-top: -8rem;
+}
+#balanco h2{
+    color: white;
+    }
+ 
+.blocos{
+    background: #5BE3EB;
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+    color:#363f5f;
+
+}
+.blocos h3{
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.blocos.total{
+    background: #4DBEC4;
+    color: white;
+    }
+.blocos p{
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.quadro{
+   background-color: 
+
+}
+
+.dados{
+   width: 100%;
+   font-weight: normal;
+   border-spacing: 0 0.5;
+   
+   border-radius: 25;
+}
+.dados th{
+    background-color: lightgray;
+    
+    font-weight: normal;
+    padding: 1rem 2rem;
+    text-align: left;
+    color: #363f5f;
+}
+.dados tbody tr:hover{
+    opacity: 0.7;
+}
+.dados tbody td:hover{
+    opacity: 1;
+}
+.dados td{
+    background-color: lightgray;
+    padding: 1rem 2rem;
+}
+.dados thead tr th:first-child,
+.dados tbody tr td:first-child{
+    border-radius: 0.5rem 0 0 0.5rem;
+    padding: 1rem 2rem;
+    font-weight: normal;
+}
+td.descricao{
+    color: #363f5f
+}
+td.entradas{
+   color: #12a454;
+}
+td.saidas{
+    color: #e92929;
+}
+
+.footer{
+    text-align: center;
+    font-weight: 100;
+    padding: 4rem 0 2rem;
+    }
